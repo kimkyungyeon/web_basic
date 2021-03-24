@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>목록 태그</title>
+<style type="text/css">
+	#firstul{
+		list-style: square;
+	}
+	#secondul{
+		list-style: circle;
+	}
+	
+	#thirdul{
+		list-style: none;
+	}
+	
+	#firstol{
+		list-style-type: decimal;
+	}
+	
+	#secondol{
+		list-style-type: lower-roman;
+	}
+</style>
+</head>
+<body>
+
+	<h1>관광 안내 전화</h1>
+	<p>한국 관광공사에서는.... 실시하고있습니다.</p>
+	<p>1330에는 .... 이용가능합니다.</p>
+	<ul id = "firstul">
+		<li>일반전화 : 1330</li>
+		<li>휴대전화 : 064-1130</li>
+	</ul>
+	
+	<ul id = "thirdul">
+		<li>상건 일반전화 : 1330</li>
+		<li>상건 휴대전화 : 064-1130</li>
+	</ul>
+
+
+	<ul id = "secondul">
+		<li>1일차
+			<ol type="a" id ="firstol">
+				<li>해녀박물관</li>
+				<li>낚시체험</li>
+			</ol>
+		</li>
+		<li>2일차
+			<ol type="a" start="3" id = "secondol">
+				<li>용눈이오름</li>
+				<li>만장굴</li>
+				<li>카약체험</li>
+			</ol start>
+		</li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	li {
+	list-style: none;
+	}
+	li label {
+	text-align: right;
+	}
+</style>
+</head>
+<body>
+<form action="registerServlet2" method ="get">
+<h1>회원 가입</h1>
+<fieldset>
+<legend>로그인 정보</legend>
+<ul>
+	<li>
+	<label for="user-id">아이디</label>
+	<input type="text" name = "id" id ="user-id">
+	</li>
+	<li>
+	<label for="user-pw">비밀번호</label>
+	<input type="text" name = "passwd" id ="user-pw">
+	</li>
+	<li>
+	<label for="user-pwconfirm">비밀번호확인</label>
+	<input type="text" name = "passwd2" id ="user-pwconfirm">
+	</li>
+</ul>
+</fieldset>
+<fieldset>
+<legend>개인 정보</legend>
+<ul>
+	<li>
+	<label for="user-name">이름</label>
+	<input type="text" name ="name" id ="user-name">
+	</li>
+	<li>
+	<label for="user-mail">메일주소</label>
+	<input type="text" name = "mail" id ="user-mail">
+	</li>
+	<li>
+	<label for="user-tel">연락처</label>
+	<input type="text" name ="tel" id ="user-tel">
+	</li>	
+	<li>
+	<label for="user-blog">블로그/홈페이지</label>
+	<input type="text" name ="blog" id ="user-blog">
+	</li>
+</ul>
+</fieldset>
+<input type ="submit" value ="가입하기">
+</form>
+
+</body>
+</html>
