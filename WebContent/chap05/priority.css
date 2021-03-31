@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+ * {
+	margin: 20px auto; /* 내용을 화면 중앙에 배치 */
+}
+
+body {
+	color: blue; /* 문서 전체의 글자 색 */
+}
+
+#container {
+	width: 600px; 
+	padding : 15px; 
+	border: 1px dotted gray; 
+}
+
+
+h2 {
+	color: brown !important; /* 글자 색. 중요 스타일 */
+}
